@@ -1,0 +1,5 @@
+﻿1.在android中怎么得到xml数据文件，就像天气预报中的xml数据文件一样，通过解析这个xml文件得到相应的数据，我想问的是这个xml文件咋得到，我要做一个火车时刻表，各位帮帮忙，谢了！
+
+访问一个webservice 服务器返回的就是一个xml文件啊
+
+http://blog.csdn.net/leonardo811/article/details/7740372

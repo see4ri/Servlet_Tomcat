@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">AccessTomcatServer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="access_server">访问Tomcat-Server</string>
+    <string name="access_internet">访问Internet-Server</string>
+    <string name="get_data">get data : %s</string>
+    <string name="back"> <!-- Back -->
+上一页 <!-- 上一页 -->
+    </string>
+    <string name="forward"> <!-- Forward -->
+下一页 <!-- 下一页 -->
+    </string>
+    <string name="default_url">http://www.sina.com.cn</string>
+
+    <string name="parse_sax">SAX解析xml</string>
+</resources>

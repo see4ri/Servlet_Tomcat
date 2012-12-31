@@ -1,0 +1,10 @@
+﻿设置跑马灯的方式：
+1.	Single line :true
+2.	Ellipsize :marquee
+3.	Focusable :true
+4.	Marquee repeat limit : marquee_forever;
+设置字体（TextView）颜色
+1.	Text color hint :字体颜色
+2.	Text color highlight :字体背景颜色
+**：当在Listview中设置背景background时，因为他们的颜色会重叠，所以字体的颜色不会实现；
+Padding表示文字距离边框的距离；margin表示控件或view距离外部边缘的距离

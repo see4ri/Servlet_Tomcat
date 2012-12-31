@@ -1,0 +1,2 @@
+﻿Android 之 HierarchyView 界面设计利器
+文章网址：http://www.cnblogs.com/wangjianhui/archive/2011/05/27/2059939.html#2128651

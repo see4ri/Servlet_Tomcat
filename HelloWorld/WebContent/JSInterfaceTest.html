@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>测试JS交互的HTML页面</title>
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+    function CallClient2ParseXML(prompt) {
+    	Android.launchSAXParse(prompt);
+	}
+</script>
+</head>
+<body>
+<p id="content"></p>
+<isindex>
+<textarea rows="page" cols="">测试JS交互的HTML页面</textarea>
+<p>
+<input type="button" value="Say hello:Run JS交互" onClick="showAndroidToast('JS交互:Hello Android!')" />
+<p>
+<input type="button" value="调用WebAppInterface.showToast" onClick="showAndroidToast('Toast:Hello Android!')" />
+<p>
+<input type="button" value="调用alert" onClick="alert('Alert:Hello Android!')" />
+<p>
+<input type="button" value="调用confirm" onClick="confirm('Confirm:Hello Android!')" />
+<p>
+<input type="button" value="SAX解析Xml" onClick="CallClient2ParseXML('Let android client Parse server xml...')" />
+</script>
+</body>
+</html>

@@ -1,0 +1,445 @@
+﻿#Google git
+#
+#android Git repositories
+#To clone one of these repositories, install git, and run:
+#git clone https://android.googlesource.com/name
+#
+#Name	Description
+Kernel-Projects	
+Platform-Projects	Base project for all active Android platform projects, containing rights that all platform maintainers have for all projects.
+Platform-Unrestricted-Projects	Base project for Android platform where all platform maintainers have full approval and submit rights.
+Public-Projects	
+accessories/manifest	
+device/asus/grouper	Files specific to Nexus 7
+device/common	
+device/generic/armv7-a	
+device/generic/armv7-a-neon	
+device/generic/goldfish	
+device/google/accessory/adk2012	
+device/google/accessory/adk2012_demo	
+device/google/accessory/arduino	Android accessory support - arduino files.
+device/google/accessory/demokit	Android accessory support - demo kit.
+device/google/phantasm	
+device/htc/common	Files specific to HTC devices but shared between multiple HTC devices
+device/htc/dream	Files specific to HTC dream hardware
+device/htc/dream-sapphire	
+device/htc/passion	Files specific to HTC passion hardware
+device/htc/passion-common	Files specific to HTC passion hardware
+device/htc/sapphire	Files specific to HTC sapphire hardware
+device/moto/common	
+device/moto/stingray	
+device/moto/wingray	
+device/sample	
+device/samsung/crespo	Files specific to Samsung crespo hardware, a.k.a. Nexus S.
+device/samsung/crespo4g	Files specific to Samsung crespo4g hardware, a.k.a. Nexus S 4G.
+device/samsung/maguro	
+device/samsung/toro	
+device/samsung/toroplus	Files related to toroplus, i.e. the Sprint Galaxy Nexus.
+device/samsung/torospr	
+device/samsung/tuna	
+device/sony/lt26	Files specific to the Sony LT26 ("Xperia S")
+device/ti/bootloader/uboot	
+device/ti/panda	
+kernel/common	Common Android Kernel Tree
+kernel/exynos	
+kernel/goldfish	
+kernel/msm	Kernel tree for Qualcomm chipsets
+kernel/omap	
+kernel/samsung	Kernel tree for Samsung systems on Android.
+kernel/tegra	Kernel tree for NVIDIA Tegra family SOICs on Android.
+mirror/manifest	Manifest that contains all the projects that are hosted on the AOSP server. Useful when mirroring.
+platform/abi/cpp	
+platform/bionic	libc, libm, libdl, dynamic linker
+platform/bootable/bootloader/legacy	bootloader reference code
+platform/bootable/diskinstaller	
+platform/bootable/recovery	
+platform/build	build system
+platform/cts	Compatibility Test Suite
+platform/dalvik	Dalvik virtual machine and core libraries
+platform/dalvik-snapshot	
+platform/dalvik2	
+platform/development	Platform engineering tools, sample code
+platform/docs/source.android.com	Source files for the source.android.com site.
+platform/external/aac	
+platform/external/aes	
+platform/external/android-clat	
+platform/external/android-mock	
+platform/external/ant-glob	
+platform/external/antlr	
+platform/external/apache-apr	
+platform/external/apache-apr-util	
+platform/external/apache-harmony	
+platform/external/apache-http	
+platform/external/apache-log4cxx	
+platform/external/apache-qp	Quoted-printable library
+platform/external/apache-xml	
+platform/external/apple-coreaudiosamples	
+platform/external/arduino	
+platform/external/arduino-ide	
+platform/external/astl	
+platform/external/bison	
+platform/external/blktrace	
+platform/external/bluetooth/bluez	
+platform/external/bluetooth/glib	
+platform/external/bluetooth/hcidump	
+platform/external/bluez	
+platform/external/boost	
+platform/external/bouncycastle	
+platform/external/bsdiff	
+platform/external/bzip2	
+platform/external/checkpolicy	
+platform/external/chromium	
+platform/external/chromium-trace	
+platform/external/cibu-fonts	
+platform/external/clang	
+platform/external/clearsilver	
+platform/external/codesourcery	
+platform/external/collada	
+platform/external/compiler-rt	
+platform/external/curl	
+platform/external/dbus	
+platform/external/dexmaker	
+platform/external/dhcpcd	
+platform/external/dnsmasq	
+platform/external/doclava	
+platform/external/dosfstools	
+platform/external/dropbear	
+platform/external/e2fsprogs	
+platform/external/easymock	
+platform/external/eclipse-basebuilder	
+platform/external/eclipse-windowbuilder	
+platform/external/eglib	
+platform/external/elfcopy	
+platform/external/elfutils	
+platform/external/embunit	
+platform/external/emma	
+platform/external/esd	
+platform/external/expat	
+platform/external/eyes-free	
+platform/external/faad	
+platform/external/fat32lib	
+platform/external/fdlibm	
+platform/external/flac	
+platform/external/free-image	
+platform/external/freetype	
+platform/external/fsck_msdos	
+platform/external/ganymed-ssh2	
+platform/external/gcc-demangle	
+platform/external/gdata	
+platform/external/genext2fs	
+platform/external/giflib	
+platform/external/google-diff-match-patch	
+platform/external/googleclient	
+platform/external/grub	
+platform/external/gsoap	
+platform/external/gtest	
+platform/external/guava	
+platform/external/hamcrest	
+platform/external/harfbuzz	
+platform/external/harfbuzz_ng	
+platform/external/hcidump	
+platform/external/hsqldb	
+platform/external/hyphenation	
+platform/external/icu4c	
+platform/external/id3lib	
+platform/external/iproute2	
+platform/external/ipsec-tools	
+platform/external/iptables	
+platform/external/jack	
+platform/external/javasqlite	
+platform/external/javassist	
+platform/external/jdiff	
+platform/external/jenkins-hash	
+platform/external/jhead	
+platform/external/jline	
+platform/external/jmdns	
+platform/external/jmonkeyengine	
+platform/external/jpeg	
+platform/external/jsilver	
+platform/external/jsoncpp	
+platform/external/jsr305	
+platform/external/junit	
+platform/external/kernel-headers	
+platform/external/lame	
+platform/external/lcc	
+platform/external/libcap-ng	
+platform/external/libffi	
+platform/external/libgsm	
+platform/external/liblzf	
+platform/external/libmtp	
+platform/external/libnfc-nxp	
+platform/external/libnl-headers	
+platform/external/libogg	
+platform/external/libpcap	
+platform/external/libphonenumber	
+platform/external/libpng	
+platform/external/libselinux	
+platform/external/libsepol	
+platform/external/libusb	
+platform/external/libusb-compat	
+platform/external/libvorbis	
+platform/external/libvpx	
+platform/external/libxml2	
+platform/external/libxslt	
+platform/external/libyuv	
+platform/external/linux-tools-perf	
+platform/external/littlemock	
+platform/external/llvm	
+platform/external/login-items-ae	
+platform/external/lohit-fonts	
+platform/external/markdown	
+platform/external/mdnsresponder	
+platform/external/mesa3d	
+platform/external/mksh	
+platform/external/mockwebserver	
+platform/external/mp4v2	
+platform/external/mpg123	
+platform/external/mtpd	
+platform/external/naver-fonts	
+platform/external/netcat	
+platform/external/netperf	
+platform/external/neven	
+platform/external/nist-sip	
+platform/external/oauth	
+platform/external/okhttp	
+platform/external/opencore	OpenCORE Media Framework
+platform/external/opencv	
+platform/external/openfst	
+platform/external/openssh	
+platform/external/openssl	
+platform/external/openvpn	
+platform/external/oprofile	
+platform/external/pcre	
+platform/external/ping	
+platform/external/ping6	
+platform/external/ppp	
+platform/external/proguard	
+platform/external/protobuf	
+platform/external/pthreads	
+platform/external/qemu	
+platform/external/qemu-pc-bios	
+platform/external/qt	
+platform/external/quake	
+platform/external/regex-re2	
+platform/external/replicaisland	
+platform/external/safe-iop	
+platform/external/sepolicy	
+platform/external/skia	
+platform/external/smali	
+platform/external/sonivox	
+platform/external/speex	
+platform/external/sqlite	SQLite database engine (http://sqlite.org)
+platform/external/srec	
+platform/external/srtp	
+platform/external/stlport	
+platform/external/strace	
+platform/external/stressapptest	
+platform/external/svox	
+platform/external/tagsoup	
+platform/external/tcpdump	
+platform/external/tesseract	Tesseract Open Source OCR Engine
+platform/external/tinyalsa	
+platform/external/tinyxml	
+platform/external/tremolo	
+platform/external/tremor	
+platform/external/unicode	
+platform/external/utf8proc	
+platform/external/v8	
+platform/external/valgrind	
+platform/external/webkit	
+platform/external/webp	
+platform/external/webrtc	
+platform/external/wpa_supplicant	
+platform/external/wpa_supplicant_6	
+platform/external/wpa_supplicant_8	
+platform/external/xdelta3	
+platform/external/xerces-cpp	
+platform/external/xmlwriter	
+platform/external/yaffs2	
+platform/external/zlib	
+platform/external/zxing	
+platform/frameworks/av	
+platform/frameworks/base	Android framework classes and services
+platform/frameworks/compile/libbcc	
+platform/frameworks/compile/linkloader	
+platform/frameworks/compile/mclinker	
+platform/frameworks/compile/slang	
+platform/frameworks/ex	
+platform/frameworks/media/libvideoeditor	
+platform/frameworks/mff	
+platform/frameworks/ml	
+platform/frameworks/native	
+platform/frameworks/opt/calendar	
+platform/frameworks/opt/carddav	CardDAV library
+platform/frameworks/opt/com.google.android	
+platform/frameworks/opt/com.google.android.googlelogin	
+platform/frameworks/opt/emoji	
+platform/frameworks/opt/inputmethodcommon	
+platform/frameworks/opt/mailcommon	
+platform/frameworks/opt/mms	
+platform/frameworks/opt/telephony	
+platform/frameworks/opt/vcard	
+platform/frameworks/policies/base	
+platform/frameworks/rs	
+platform/frameworks/support	
+platform/frameworks/testing	
+platform/frameworks/wilhelm	
+platform/gdk	
+platform/hardware/akm	
+platform/hardware/broadcom/wlan	
+platform/hardware/invensense	
+platform/hardware/libhardware	hardware abstraction library
+platform/hardware/libhardware_legacy	
+platform/hardware/msm7k	msm7k hardware glue
+platform/hardware/qcom/gps	
+platform/hardware/qcom/media	
+platform/hardware/ril	radio interface layer
+platform/hardware/ti/omap3	
+platform/hardware/ti/omap4xxx	
+platform/hardware/ti/wlan	
+platform/hardware/ti/wpan	
+platform/libcore	
+platform/libcore-snapshot	
+platform/libcore2	
+platform/libnativehelper	
+platform/manifest	Android Platform Manifest
+platform/motodev	
+platform/ndk	
+platform/packages/apps/AccountsAndSyncSettings	
+platform/packages/apps/AlarmClock	
+platform/packages/apps/BasicSmsReceiver	
+platform/packages/apps/Bluetooth	
+platform/packages/apps/Browser	
+platform/packages/apps/Calculator	
+platform/packages/apps/Calendar	
+platform/packages/apps/Camera	
+platform/packages/apps/CellBroadcastReceiver	
+platform/packages/apps/CertInstaller	
+platform/packages/apps/Contacts	UI for the Contacts, Call log, and Dialer applications
+platform/packages/apps/DeskClock	
+platform/packages/apps/Email	
+platform/packages/apps/Exchange	
+platform/packages/apps/Gallery	
+platform/packages/apps/Gallery2	
+platform/packages/apps/Gallery3D	
+platform/packages/apps/GlobalSearch	
+platform/packages/apps/GoogleSearch	
+platform/packages/apps/HTMLViewer	
+platform/packages/apps/IM	
+platform/packages/apps/KeyChain	
+platform/packages/apps/Launcher	
+platform/packages/apps/Launcher2	
+platform/packages/apps/LegacyCamera	
+platform/packages/apps/Mms	
+platform/packages/apps/Music	
+platform/packages/apps/MusicFX	
+platform/packages/apps/Nfc	
+platform/packages/apps/PackageInstaller	
+platform/packages/apps/Phone	Call management UI
+platform/packages/apps/Protips	
+platform/packages/apps/Provision	Minimal configuration/provisioning app
+platform/packages/apps/QuickSearchBox	
+platform/packages/apps/Settings	
+platform/packages/apps/SmartCardService	
+platform/packages/apps/SoundRecorder	
+platform/packages/apps/SpareParts	
+platform/packages/apps/SpeechRecorder	
+platform/packages/apps/Stk	
+platform/packages/apps/Sync	
+platform/packages/apps/Tag	
+platform/packages/apps/Updater	
+platform/packages/apps/VideoEditor	
+platform/packages/apps/VoiceDialer	
+platform/packages/experimental	
+platform/packages/inputmethods/LatinIME	
+platform/packages/inputmethods/OpenWnn	
+platform/packages/inputmethods/PinyinIME	
+platform/packages/providers/ApplicationsProvider	
+platform/packages/providers/CalendarProvider	Content provider for calendar data
+platform/packages/providers/ContactsProvider	Content provider for contacts and call log data
+platform/packages/providers/DownloadProvider	Download Manager
+platform/packages/providers/DrmProvider	
+platform/packages/providers/GoogleContactsProvider	ContactsProvider to sync contacts with Google
+platform/packages/providers/GoogleSubscribedFeedsProvider	
+platform/packages/providers/ImProvider	
+platform/packages/providers/ManagementProvider	
+platform/packages/providers/MediaProvider	
+platform/packages/providers/PartnerBookmarksProvider	
+platform/packages/providers/TelephonyProvider	
+platform/packages/providers/UserDictionaryProvider	
+platform/packages/providers/WebSearchProvider	
+platform/packages/services/EasService	
+platform/packages/services/LockAndWipe	
+platform/packages/wallpapers/Basic	
+platform/packages/wallpapers/Galaxy4	
+platform/packages/wallpapers/HoloSpiral	
+platform/packages/wallpapers/LivePicker	
+platform/packages/wallpapers/MagicSmoke	
+platform/packages/wallpapers/MusicVisualization	
+platform/packages/wallpapers/NoiseField	
+platform/packages/wallpapers/PhaseBeam	
+platform/pdk	
+platform/prebuilt	binaries to support linux and osx builds
+platform/prebuilts/eclipse	Prebuilt packages from the Eclipse project, used to build components of the SDK.
+platform/prebuilts/eclipse-build-deps	
+platform/prebuilts/eclipse-build-deps-sources	
+platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6	
+platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7	
+platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6	
+platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7	
+platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3	MIPS 4.4.3 toolchain, for 32-bit MacOS.
+platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6	
+platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7	
+platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3	
+platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.6	
+platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6	
+platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7	
+platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6	
+platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7	
+platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6	
+platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7	
+platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3	
+platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6	
+platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6	
+platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3	MIPS 4.4.3 toolchain, for 32-bit linux.
+platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6	
+platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7	
+platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3	
+platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.6	
+platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6	
+platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7	
+platform/prebuilts/misc	Miscellaneous prebuilt modules
+platform/prebuilts/ndk	
+platform/prebuilts/qemu-kernel	
+platform/prebuilts/sdk	
+platform/prebuilts/tools	
+platform/sdk	Development Tools for the SDK
+platform/system/bluetooth	bluetooth tools
+platform/system/core	minimal bootable environment
+platform/system/extras	debugging/inspection tools
+platform/system/media	
+platform/system/netd	
+platform/system/security	
+platform/system/vold	
+platform/system/wlan/ti	TI 1251 WLAN driver and tools
+platform/tools/build	
+platform/tools/motodev	
+platform/tools/tradefederation	
+platform/vendor/htc/dream-open	build configuration for HTC Dream
+platform/vendor/sample	
+toolchain/avr-libc	
+toolchain/benchmark	
+toolchain/binutils	
+toolchain/build	
+toolchain/ccache	
+toolchain/clang	
+toolchain/expat	
+toolchain/gcc	
+toolchain/gdb	
+toolchain/gmp	
+toolchain/gold	
+toolchain/llvm	
+toolchain/manifest	
+toolchain/mpc	
+toolchain/mpfr	
+tools/repo	

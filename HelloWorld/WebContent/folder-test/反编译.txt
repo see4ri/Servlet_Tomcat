@@ -1,0 +1,64 @@
+﻿classes.dex文件反编译
+classes.dex是java源码编译后生成的java字节码文件。但由于Android使用的dalvik虚拟机与标准的java虚拟机是不兼容的，dex文件与class文件相比，不论是文件结构还是opcode都不一样。目前常见的java反编译工具都不能处理dex文件。
+
+Android模拟器中提供了一个dex文件的反编译工具，dexdump。用法为首先启动Android模拟器，把要查看的dex文件用adb push上传的模拟器中，然后通过adb shell登录，找到要查看的dex文件，执行dexdump xxx.dex。但是这样得到的结果，其可读性是极差的。下面介绍一个可读性比较好的工具。
+
+工具准备：
+
+1、把dex文件反编译为jar文件的工具。（dex2jar）
+
+2、把jar反编译为java的工具。（JD-GUI）
+
+反编译的步骤
+
+1、从APK中提取classes.dex文件，对APK文件解压即可得到。 将其放到dex2jar的目录下，打开cmd，运行dex2jar.bat classes.dex，生成classes.dex.dex2jar.jar。
+
+2、运行JD-GUI工具，打开上面的jar文件，即可看到源代码。
+
+HelloAndroid实例：
+
+package name.feisky.android.test;
+
+import android.app.Activity;
+
+import android.os.Bundle;
+
+public class HelloAndroid extends Activity
+
+{
+
+public void onCreate(Bundle paramBundle)
+
+{
+
+super.onCreate(paramBundle);
+
+setContentView(2130903040);
+
+}
+
+}
+
+其原程序为：
+
+package name.feisky.android.test;
+
+import android.app.Activity;
+
+import android.os.Bundle;
+
+public class HelloAndroid extends Activity {
+
+/** Called when the activity is first created. */
+
+@Override
+
+public void onCreate(Bundle savedInstanceState) {
+
+super.onCreate(savedInstanceState);
+
+setContentView(R.layout.main);
+
+}
+
+}

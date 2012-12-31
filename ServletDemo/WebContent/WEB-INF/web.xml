@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ServletDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+      <servlet-name>HelloWorldServlet</servlet-name>
+      <!-- servlet-class这个是最重要的，package.*.class -->
+      <servlet-class>com.demo.servlet.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>HelloWorldServlet</servlet-name>
+      <!-- 说明：url-pattern匹配路径可以自定义，不是一定要按照包名、类名来的 -->
+      <url-pattern>/servlet/HelloWorld</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>SimpleTestDoGet</servlet-name>
+      <!-- servlet-class这个是最重要的，package.*.class -->
+      <servlet-class>com.demo.servlet.test.SimpleTestDoGet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>SimpleTestDoGet</servlet-name>
+      <!-- 说明：url-pattern匹配路径可以自定义，不是一定要按照包名、类名来的 -->
+      <url-pattern>/servlet/SimpleTestDoGet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>SimpleTestDoPost</servlet-name>
+      <!-- servlet-class这个是最重要的，package.*.class -->
+      <servlet-class>com.demo.servlet.test.SimpleTestDoPost</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>SimpleTestDoPost</servlet-name>
+      <!-- 说明：url-pattern匹配路径可以自定义，不是一定要按照包名、类名来的 -->
+      <url-pattern>/servlet/SimpleTestDoPost</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>SimpleServiceDo4GetAndPost</servlet-name>
+      <!-- servlet-class这个是最重要的，package.*.class -->
+      <servlet-class>com.demo.servlet.test.SimpleServiceDo4GetAndPost</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>SimpleServiceDo4GetAndPost</servlet-name>
+      <!-- 说明：url-pattern匹配路径可以自定义，不是一定要按照包名、类名来的 -->
+      <url-pattern>/servlet/SimpleServiceDo4GetAndPost</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

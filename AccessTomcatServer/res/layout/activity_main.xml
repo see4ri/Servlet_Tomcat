@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+    -->
+
+    <Button
+        android:id="@+id/btn_access_tomcat_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/access_server" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_access_tomcat_server"
+        android:layout_below="@id/btn_access_tomcat_server"
+        android:ems="20"
+        android:hint="@string/default_url"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_access_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:text="@string/access_internet" />
+
+    <TextView
+        android:id="@+id/text_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_access_tomcat_server"
+        android:layout_below="@id/btn_access_tomcat_server"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/get_data"
+        android:visibility="invisible" />
+
+    <WebView
+        android:id="@+id/webView_client"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@id/editText1"
+        android:layout_below="@id/editText1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="50dp" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/webView_client"
+        android:layout_alignLeft="@id/webView_client"
+        android:layout_marginLeft="10dp"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/btn_go_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/webView_client"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn_go_back"
+        android:text="@string/forward" />
+
+    <ProgressBar
+        android:id="@+id/page_load_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/webView_client"
+        android:layout_alignRight="@id/webView_client"
+        android:layout_alignTop="@id/webView_client"
+        android:visibility="invisible" />
+
+</RelativeLayout>

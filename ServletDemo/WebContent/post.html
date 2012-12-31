@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Post Test</title>
+</head>
+<body>
+	<!-- 使用<form>表单，通过post 方法访问 HelloWorldServlet -->
+	<!-- 要访问classes/../HelloWorldServlet.class 应该按照web.xml中“<servlet-mapping><url-pattern>”的value,即 .value -->
+	<form action="./servlet/HelloWorld" method="post">
+		<!-- 产生name请求参数 -->
+		HelloWorldServlet :<p/>
+		<input type="text" name="name" />
+		<p/>
+		<input type="submit" name="提交" />
+	</form>
+	<form action="./servlet/SimpleTestDoPost" method="post">
+		<!-- 产生name请求参数 -->
+		SimpleTestDoPost :<p/>
+		<input type="text" name="name" />
+		<p/>
+		<input type="submit" name="提交" />
+	</form>
+	<form action="./servlet/SimpleServiceDo4GetAndPost" method="post">
+		<!-- 产生name请求参数 -->
+		SimpleServiceDo4GetAndPost :<p/>
+		<input type="text" name="name" />
+		<p/>
+		<input type="submit" name="提交" />
+	</form>
+	<form action="./servlet/SimpleServiceDo4GetAndPost" method="get">
+		<!-- 产生name请求参数 -->
+		SimpleServiceDo4GetAndPost :<p/>
+		<input type="text" name="name" />
+		<p/>
+		<input type="submit" name="提交" />
+	</form>
+</body>
+</html>

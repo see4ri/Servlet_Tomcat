@@ -1,0 +1,28 @@
+﻿今天有人问RootExplorer管理器 v2.9.3 汉化版  的功能，这里就写个教程，安卓的手机文件系统是怎么一回事，下面是教程：
+
+Android系统的开放，使其用户可以自己查看系统和SD卡中的文件夹。就系统和SD卡中常见的目录代表什么意思，下面是一个较实用的总结:
+
+一、SD卡中
+  1. /mnt/sdcard或者/sdcard这是Android手机中SD卡的文件夹路径，其中/mnt/sdcard/是android 
+2.2或更高版本所使用的，而/sdcard是android 2.1或早期版本的存储卡位置。
+  2. 
+/mnt/sdcard/dcim或/sdcard/dcim这个DCIM文件夹是干什么用的，这里提示大家，一般数码相机都有DCIM文件夹，其中进入后Camera为手机摄像头
+拍摄的照片或视频存放位置。同时在DCIM文件夹中还有.thumbnails这个目录，在Linux中开头为“.”的文件夹就是开头为“点”的文件夹是隐藏目录
+，这里面记录着手机SD卡图片的缩略图。
+  3.  /mnt/sdcard/LOST.DIR或/sdcard/LOST.DIR这个LOST.DIR为SD卡扫描时发现的丢失文件，里面的文件用处不大，可以不用理会。
+
+二、手机或平板电脑中
+  1. /system/app 
+这里是android手机rom中的系统应用存放地，如果有Root权限可以将手机rom中自带的应用删除掉，这里面一般包含一个apk文件和odex文件，大家
+注意文件名一一对应。
+  2. /data/data 这里是每个安装过应用的用户文件存储位置，一般为设置文件、数据库或临时缓存文件，进入后以每个软件的package 
+name包名来命名。
+  3. /dev 这里是Linux系统常规文件夹，里面的文件很多都是设备模拟的文件系统，一般用户无需理会。
+  4. /system/fonts 这里面保存着系统的字体，如果你有root权限，可以往里添加自己喜欢的字体，比如雅黑。
+  5. /system/framework 这里是android系统的框架，里面保存着系统核心程序或java类库，十分重要里面的任何文件几乎都不要做删除操作。
+  6. /media/audio 
+这里面保存着安卓系统默认的铃声，alarms是闹铃提醒的，notification是短信或提示音，ringtones是来电铃声，而ui是一些界面音效，比如键
+盘敲击声。
+  7./system/lib 里面保存的是系统底层类库，里面很多都是框架层的实现文件，一般以.so后缀结尾类似windows下的dll文件。
+
+删除系统自带的软件有风险，请新手慎重！
